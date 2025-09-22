@@ -8,3 +8,4 @@ This comprised of 3 steps:
 3. Github repo submission.
 
 All these steps are completed.
+![Tools Installation](week_0/1-Tools installation instructions.png)
