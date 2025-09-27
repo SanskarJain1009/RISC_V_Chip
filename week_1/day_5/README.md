@@ -44,9 +44,22 @@ It included-
     There is synthesis simulation mismatch in this design.
 
 4. for loop and for generate-
-        Verilog includes, for loop and generate construct. 'for loop' is used inside the always block and the 'generate' is used outside the always block. 'generate' is used to instantiate the hardware. 
-        Inside for loop, blocking assignment use becomes most meaningful. 
+        Verilog includes, for loop and generate construct. 'for loop' is used inside the always block and the 'generate' is used outside the always block. 'generate' is used to instantiate the hardware. Inside for loop, blocking assignment use becomes most meaningful. 
+        The designs demux_case.v and demux_generate.v shows the use of for loop and blocking assignment in a most meaning way. We found that both the designs yield the same result. The simulated wave and synthesized design is attached below.
+        ![demux_case_wave](/week_1/day_5/img/for_loop_and_for_generate/demux_case_wave.png)
+        ![synthesized_demux_case](/week_1/day_5/img/for_loop_and_for_generate/synthesized_demux_case.png)
+        
+        ![demux_generate_wave](/week_1/day_5/img/for_loop_and_for_generate/demux_generate_wave.png)
+        ![synthesized_demux_generate](/week_1/day_5/img/for_loop_and_for_generate/synthesized_demux_generate.png)
 
-5. Labs on "for loop" and "for generate"
+5. Labs on "for loop" and "for generate"-
+        The mux_generate.v is taken as first example to demonstate the for loop. It is basically a 2x1 mux. The simulated result and the synthesized netlist is attached below.
+        ![mux_generate_wave](/week_1/day_5/img/Labs_on_for_loop_and_for_generate/mux_generate_wave.png)
+        ![synthesized_mux_generate](/week_1/day_5/img/Labs_on_for_loop_and_for_generate/synthesized_mux_generate.png)
+        
+        To demonstrate the 'for generate' construct to show how hardware can be replicated, the Ripple Carry Adder (RCA) is taken as example. We use the 'for generate' to replicate the full adder and establish interconnection. The rca.v (Ripple Carry Adder Design) and fa.v (Full Adder Design) are the design files used to showcase the demonstrate 'for generate'. The RTL simulated waveform, the synthesized netlist and the GLS waveform are attached below respectively.
+        ![rca_wave](/week_1/day_5/img/Labs_on_for_loop_and_for_generate/rca_wave.png)
+        ![synthesized_rca](/week_1/day_5/img/Labs_on_for_loop_and_for_generate/synthesized_rca.png)
+        ![GSL_rca_wave](/week_1/day_5/img/Labs_on_for_loop_and_for_generate/GSL_rca_wave.png)
 
 
