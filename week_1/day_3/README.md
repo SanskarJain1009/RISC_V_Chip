@@ -38,4 +38,10 @@ It included-
     ![dff_const5_wave](/week_1/day_3/img/sequential_logic_optimizatoin/dff_const5_wave.png)
     ![synthesized_dff_const5](/week_1/day_3/img/sequential_logic_optimizatoin/synthesized_dff_const5.png)
     
+4. Sequential Optimization for Unused  Outputs-
+    In this, counter_opt.v is taken as example to show how unused outputs (registers, ports, wires) gets removed from the netlist after the synthesis. This design is supposed to be using 3 flip flops but since there is only one flop required for the design to work as intended, during the optimization, the unused outputs gets removed. The synthesized nelist for counter_opt.v is shown below.
+    ![synthesized_counter_opt](/week_1/day_3/img/Sequential_optimzations_for_unused_outputs/synthesized_counter_opt.png)
+    
+    Then, the design previously shown is edited and saved as counter_opt2.v, in this design all the bits of the counter value are used. So, when the synthesis is done, these flip flops are retained. The synthesized netlist for counter_opt2.v is shown below.
+    ![synthesized_counter_opt](/week_1/day_3/img/Sequential_optimzations_for_unused_outputs/synthesized_counter_opt2.png)
     
