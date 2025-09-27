@@ -41,10 +41,10 @@ It included-
     ![bad_case_wave](/week_1/day_5/img/Labs_on_Incomplete_overlapping_Case/bad_case_wave.png)
     ![synthesized_bad_case](/week_1/day_5/img/Labs_on_Incomplete_overlapping_Case/synthesized_bad_case.png)
     
+    There is synthesis simulation mismatch in this design.
 
 4. for loop and for generate-
 
-5. Labs on "for loop" and "for generate"-
-        In this, designs 
+5. Labs on "for loop" and "for generate"
 
 
