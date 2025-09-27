@@ -11,6 +11,7 @@ It included-
     ![multiple_modules](/week_1/day_2/img/Introduction_to_timing_lib/multiple_modules.png)
     ![multiple_modules_flatten](/week_1/day_2/img/Introduction_to_timing_lib/multiple_modules_flatten.png)
     ![sub_module1](/week_1/day_2/img/Introduction_to_timing_lib/sub_module1.png)
+    
 3. Various Flop Coding Styles and optimization:
     Flip flops are needed to avoid glitches. Sync and Async flip flop styles is explained thoroughly with the example of sync, async and sync-async reset and set.
     The iverilog is used to simulate the design for the example taken are dff_asyncres.v, dff_asyncset.v dff_syncres.v.
@@ -29,6 +30,7 @@ It included-
     With mult_2.v, it was found that it is a special case as it doesn't require any hardware. In this case, keeping the signal same and appending an extra by ground is sufficient to realise the design, i,e. it does not require abc command in yosys, wires are sufficient for it's design. 
     ![synthesized_mul2](/week_1/day_2/img/Various_Flop_Coding_Styles_and_Optimization/synthesized_mul2.png)
     ![abc_liberty_command_output_mul2](/week_1/day_2/img/Various_Flop_Coding_Styles_and_Optimization/abc_liberty_command_output_mul2.png)
+    
     The output becomes input 'a' concatenated with 0.
     
     With mult_8.v, it is also a special case. It is synthesized and the output is concatenation of input 'a' with itself. This special case is due to the input bit size, i.e, 3 and the multiplication factor of 9. 
