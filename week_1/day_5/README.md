@@ -44,6 +44,8 @@ It included-
     There is synthesis simulation mismatch in this design.
 
 4. for loop and for generate-
+        Verilog includes, for loop and generate construct. 'for loop' is used inside the always block and the 'generate' is used outside the always block. 'generate' is used to instantiate the hardware. 
+        Inside for loop, blocking assignment use becomes most meaningful. 
 
 5. Labs on "for loop" and "for generate"
 
