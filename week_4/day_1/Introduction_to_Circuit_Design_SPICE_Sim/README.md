@@ -1,7 +1,7 @@
 # Introduction_to_Circuit_Design_SPICE_Sim: 
 It included-
 1. Why do we need SPICE Simulation:
-    First of all, the topics we talk about such as PD, Clock Tree Syntheses, etc are not possible without spice simulation. The reason being the cmos transistor level simulation is done using SPICE which provides us with the values for all the things needed for VLSI design, and that is delay table. It provides us with the delay table for any transistor gates or designs. The delay table gives delay at the intersection of input slew and output load. SPICE simulation is the lower most simulation possible in vlsi design, it creates foundation blocks for all the layers above it. The below image shows an example of delay table.
+    First of all, the topics we talk about such as PD, Clock Tree Syntheses, etc are not possible without spice simulation. The reason being the transistor level simulation is done using SPICE which provides us with the values for all the things needed for VLSI design, and that is delay table. It provides us with the delay table for any transistor gates or designs. The delay table gives delay at the intersection of input slew and output load. SPICE simulation is the lower most simulation possible in vlsi design, it creates foundation blocks for all the layers above it. The below image shows an example of delay table.
     ![Delay_Table](/week_4/day_1/Introduction_to_Circuit_Design_SPICE_Sim/img/Delay_Table.png)
     
     The SPICE Simulation answer the following questions:
