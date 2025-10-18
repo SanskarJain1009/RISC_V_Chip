@@ -66,7 +66,9 @@ It included-
     
 6. Applications of CMOS inverter in clock network and STA-
     Concluding the switching threshold-
+    
     i. The first advantage of having CMOS inverter kind of structure is that the power increase when the size of pmos increases is not much.
+    
     ii. There might be size of nmos and pmos where rise delay and fall delay is approximately same.
     ![Approximate_equal_rise_and_fall_time](/week_4/day_3/Static_Behavior_Evaluation_CMOS_Inverter_Robustness_Switching_Threshold/img/Approximate_equal_rise_and_fall_time.png)
     

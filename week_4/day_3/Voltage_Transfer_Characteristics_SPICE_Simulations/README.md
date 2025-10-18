@@ -25,8 +25,8 @@ It included-
     ![plot_vin_vs_vout_with_switching_threshold](/week_4/day_3/Voltage_Transfer_Characteristics_SPICE_Simulations/img/plot_vin_vs_vout_with_switching_threshold.png)
     
     Then, the Transient Analysis is done. The obtained plot is shown below.
-    The rise transient plot along with rise delay is shown below. Subtracting both the xo, the obtained Rise Delay is around 0.33ns
+    The rise transient plot along with rise delay is shown below. Subtracting both the xo, the obtained Rise Delay is around 0.33ps
     ![Transient_Plot_out_vs_time_in_with_Rise_Delay](/week_4/day_3/Voltage_Transfer_Characteristics_SPICE_Simulations/img/Transient_Plot_out_vs_time_in_with_Rise_Delay.png)
     
-    Then, the fall time is also calculated using the plot obtained and is shown below. The calculation is same and it is around 0.28ns -
+    Then, the fall time is also calculated using the plot obtained and is shown below. The calculation is same and it is around 0.28ps -
     ![Transient_Plot_out_vs_time_in_with_Fall_Delay](/week_4/day_3/Voltage_Transfer_Characteristics_SPICE_Simulations/img/Transient_Plot_out_vs_time_in_with_Fall_Delay.png)
