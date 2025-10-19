@@ -17,7 +17,7 @@ To simulate the NMOS device and study how drain current (Id) varies with drain v
 A SPICE simulation of NMOS (tt model) was carried out following the workshop steps.
 
 ### Result
-![First_Spice_Simulation](/week_4/Deliverables/SPICE_Lab_with_sky130_models/First_Spice_Simulation.png)
+![First_Spice_Simulation](/week_4/Deliverables/day_1/SPICE_Lab_with_sky130_models/First_Spice_Simulation.png)
 
 **Observation:**  
 As Vds increases, Id initially grows linearly (ohmic region) and then saturates beyond a certain Vds, showing channel pinch-off.  
@@ -34,9 +34,9 @@ To sweep Vgs vs. Id and extract the device threshold voltage (Vt), and observe v
 The Id–Vgs characteristics were simulated for constant Vds. The threshold voltage was extracted via linear extrapolation in the subthreshold region.
 
 ### Result
-![Labs_Sky130_Id_Vds](/week_4/Deliverables/Labs_Sky130_Id_Vgs/Labs_Sky130_Id_Vds.png)
-![Labs_Sky130_Id_Vgs](/week_4/Deliverables/Labs_Sky130_Id_Vgs/Labs_Sky130_Id_Vgs.png)
-![Labs_Sky130_Vt](/week_4/Deliverables/Labs_Sky130_Vt/Labs_Sky130_Vt.png)
+![Labs_Sky130_Id_Vds](/week_4/Deliverables/day_2/Labs_Sky130_Id_Vgs/Labs_Sky130_Id_Vds.png)
+![Labs_Sky130_Id_Vgs](/week_4/Deliverables/day_2/Labs_Sky130_Id_Vgs/Labs_Sky130_Id_Vgs.png)
+![Labs_Sky130_Vt](/week_4/Deliverables/day_2/Labs_Sky130_Vt/Labs_Sky130_Vt.png)
 
 **Observation:**  
 Vt is determined from the x-axis intercept of the tangent drawn to the linear region.  
@@ -143,19 +143,6 @@ At lower Vdd, transistors do not fully switch ON, degrading noise margins and ga
 **Observation:**  
 With increased PMOS sizing, the high logic level holds longer than low logic.  
 The switching threshold shifts to **~0.988 V**, demonstrating sensitivity to transistor ratio (β ratio).
-
----
-
-## Summary of Extracted Parameters
-
-| Parameter | Value |
-|------------|--------|
-| Threshold Voltage (Vt) | Extracted from Id–Vgs plot |
-| Rise Delay | 0.33 ps |
-| Fall Delay | 0.28 ps |
-| NMH | 0.75 V |
-| NML | 0.64 V |
-| Switching Threshold (Vm) | ~0.988 V |
 
 ---
 
