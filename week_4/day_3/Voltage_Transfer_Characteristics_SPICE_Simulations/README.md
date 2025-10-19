@@ -21,7 +21,7 @@ It included-
     The reason for this will be explained in next lecture.
 
 3. Labs Sky130 SPICE simulation for CMOS-
-    In this lap, the sky130circuitdesignworkshop is used. The VTC of cmos inverter is plotted and along with it the switching threshold is shown. The plot obtained along with switching threshold is shown below.
+    In this lab, the sky130circuitdesignworkshop is used. The VTC of cmos inverter is plotted and along with it the switching threshold is shown. The plot obtained along with switching threshold is shown below.
     ![plot_vin_vs_vout_with_switching_threshold](/week_4/day_3/Voltage_Transfer_Characteristics_SPICE_Simulations/img/plot_vin_vs_vout_with_switching_threshold.png)
     
     Then, the Transient Analysis is done. The obtained plot is shown below.
