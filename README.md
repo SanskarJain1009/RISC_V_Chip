@@ -18,7 +18,7 @@ It was the GET STARTED week for the RISC V Tapeout Program. Introductory session
 [View Week 4 Folder](https://github.com/SanskarJain1009/RISC_V_Chip/tree/main/week_4)
 
 # WEEK 5
-[View Week 4 Folder](https://github.com/SanskarJain1009/RISC_V_Chip/tree/main/week_5)
+[View Week 5 Folder](https://github.com/SanskarJain1009/RISC_V_Chip/tree/main/week_5)
 
 
 
