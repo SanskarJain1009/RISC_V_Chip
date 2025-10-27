@@ -14,4 +14,4 @@
     run_synthesis 
 
     The log is shown in the image below, along with the D Flip Flop Ratio which is: 0.10843.
-    ![Log_Flip_Flop_Ratio](/week_6/day_1/Get_familiar_to_open_source_EDA_tools/Log_Flip_Flop_Ratio.png)
+    ![Log_Flip_Flop_Ratio](/week_6/day_1/Get_familiar_to_open_source_EDA_tools/Log_Flip_Flop_Ratio.jpg)
